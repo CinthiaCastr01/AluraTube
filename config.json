@@ -1,0 +1,138 @@
+{
+    "name": "Cinthia Castro",
+    "job": "Junior Developer",
+    "github": "CinthiaCastr01",
+    "playlists": {
+        "Músicas Favoritas - Maneva": [
+            {
+                "title": "Maneva - Respostas (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=-TfNBqvYjSk",
+                "thumb": "https://img.youtube.com/vi/-TfNBqvYjSk/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Sereia (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=CWxg5EjF6uo",
+                "thumb": "https://img.youtube.com/vi/CWxg5EjF6uo/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Porta Do Teu Prédio (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=3eSEzOxljhI",
+                "thumb": "https://img.youtube.com/vi/3eSEzOxljhI/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Promete (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=hQ8mb7ppn2c",
+                "thumb": "https://img.youtube.com/vi/hQ8mb7ppn2c/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Mundo Novo (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=wudlnNflxYI",
+                "thumb": "https://img.youtube.com/vi/wudlnNflxYI/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Outro Alguém (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=Ad1r0qPMT8A",
+                "thumb": "https://img.youtube.com/vi/Ad1r0qPMT8A/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Tão Simples (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=i8Y-cE_Lv6Y",
+                "thumb": "https://img.youtube.com/vi/i8Y-cE_Lv6Y/hqdefault.jpg"
+            },
+            {
+                "title": "Maneva - Vida Eu Gosto De Você (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=k3r4nzQCptk",
+                "thumb": "https://img.youtube.com/vi/k3r4nzQCptk/hqdefault.jpg"
+            },
+        {
+            "title": "Maneva - Cores Do Universo (Ao Vivo)",
+            "url": "https://www.youtube.com/watch?v=4hophu90Ne0",
+            "thumb": "https://img.youtube.com/vi/4hophu90Ne0/hqdefault.jpg"
+        }
+        ],
+        "Músicas Favoritas - RBD": [
+            {
+                "title": "RBD - Nuestro Amor",
+                "url": "https://www.youtube.com/watch?v=-2z3YwCrGMc",
+                "thumb": "https://img.youtube.com/vi/-2z3YwCrGMc/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Algún Día (Lyric Video)",
+                "url": "https://www.youtube.com/watch?v=TqG8yQb08bk",
+                "thumb": "https://img.youtube.com/vi/TqG8yQb08bk/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Tu Amor",
+                "url": "https://www.youtube.com/watch?v=tQS8LorugdU",
+                "thumb": "https://img.youtube.com/vi/tQS8LorugdU/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Sálvame",
+                "url": "https://www.youtube.com/watch?v=RoayB0pLRC0",
+                "thumb": "https://img.youtube.com/vi/RoayB0pLRC0/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Aún Hay Algo (Live)",
+                "url": "https://www.youtube.com/watch?v=ZoECkRKpMOw",
+                "thumb": "https://img.youtube.com/vi/ZoECkRKpMOw/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Qué Hay Detrás (Lyric Video)",
+                "url": "https://www.youtube.com/watch?v=Q-ZyYgqBmxM",
+                "thumb": "https://img.youtube.com/vi/Q-ZyYgqBmxM/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Inalcanzable",
+                "url": "https://www.youtube.com/watch?v=fv1toOv2M1M",
+                "thumb": "https://img.youtube.com/vi/fv1toOv2M1M/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Besame Sin Miedo",
+                "url": "https://www.youtube.com/watch?v=us9hIgCTNPE",
+                "thumb": "https://img.youtube.com/vi/us9hIgCTNPE/hqdefault.jpg"
+            },
+            {
+                "title": "RBD - Empezar Desde Cero (4K)",
+                "url": "https://www.youtube.com/watch?v=lf_mukLGVEM",
+                "thumb": "https://img.youtube.com/vi/lf_mukLGVEM/hqdefault.jpg"
+            }
+        ],
+        "E eu que era Emo!": [
+            {
+                "title": "Evanescence - Going Under (Official Music Video)",
+                "url": "https://www.youtube.com/watch?v=CdhqVtpR2ts",
+                "thumb": "https://img.youtube.com/vi/CdhqVtpR2ts/hqdefault.jpg"
+            },
+            {
+                "title": "Fresno - Quebre as Correntes (Ao Vivo)",
+                "url": "https://www.youtube.com/watch?v=4omGBqJmp0Q",
+                "thumb": "https://img.youtube.com/vi/4omGBqJmp0Q/hqdefault.jpg"
+            },
+            {
+                "title": "Avril Lavigne - Girlfriend (Official Video)",
+                "url": "https://www.youtube.com/watch?v=Bg59q4puhmg",
+                "thumb": "https://img.youtube.com/vi/Bg59q4puhmg/hqdefault.jpg"
+            },
+            {
+                "title": "Hateen - 1997",
+                "url": "https://www.youtube.com/watch?v=9El8tJ-pTRU",
+                "thumb": "https://img.youtube.com/vi/9El8tJ-pTRU/hqdefault.jpg"
+            },
+            {
+                "title": "Green Day - Basket Case [Official Music Video]",
+                "url": "https://www.youtube.com/watch?v=NUTGr5t3MoY",
+                "thumb": "https://img.youtube.com/vi/NUTGr5t3MoY/hqdefault.jpg"
+            },
+            {
+                "title": "Fall Out Boy - Sugar, We're Goin Down",
+                "url": "https://www.youtube.com/watch?v=uhG-vLZrb-g",
+                "thumb": "https://img.youtube.com/vi/uhG-vLZrb-g/hqdefault.jpg"
+            },
+            {
+                "title": "Paramore: Misery Business [OFFICIAL VIDEO]",
+                "url": "https://www.youtube.com/watch?v=aCyGvGEtOwc",
+                "thumb": "https://img.youtube.com/vi/aCyGvGEtOwc/hqdefault.jpg"
+            }
+        ]
+    }
+}
