@@ -1,21 +1,15 @@
-import React from "react";
+import React from "react"
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 
 
 function HomePage() {
-    const estilosDaHomePage = {
-        // backgroundColor: "red"
-    };
-
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     return (
         <>
-            <CSSReset />
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -32,7 +26,7 @@ function HomePage() {
     );
 }
 
-export default HomePage
+export default HomePage;
 
 // function Menu() {
 //     return (
@@ -43,6 +37,8 @@ export default HomePage
 // }
 
 const StyledHeader = styled.div`
+background-color: ${({ theme }) => theme.backgroundLevel1};
+
 img {
     width: 80px;
     height: 80px;
@@ -87,7 +83,7 @@ function Timeline({ searchValue, ...propriedades }) {
     const playlistsName = Object.keys(propriedades.playlists);
     return (
         <StyledTimeline>
-            {playlistsName.map((playlistsName) => {
+            {playlistsName.map(function (playlistsName) {
                 const videos = propriedades.playlists[playlistsName];
 //                console.log(playlistsName);
 //                console.log(videos);
@@ -96,8 +92,8 @@ function Timeline({ searchValue, ...propriedades }) {
                         <h2>{playlistsName}</h2>
                         <div>
                             {videos.filter((video) => {
-                                const titleNormalized = video.title.toLowerCase();
-                                const searchValueNormalized = searchValue.toLowerCase();
+                                const titleNormalized = video.title.toLowerCase()
+                                const searchValueNormalized = searchValue.toLowerCase()
                               return titleNormalized.includes(searchValueNormalized)                        
                             }).map((video) => {
                                 return (

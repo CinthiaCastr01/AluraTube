@@ -1,9 +1,27 @@
 import styled from "styled-components";
 
 export const StyledTimeline = styled.div`
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #b3b2b3 #ffffff;
+  }
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 1em;
+  }
+  *::-webkit-scrollbar-track {
+    background: #fff0;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #b3b2b3;
+    border-radius: 10px;
+    border: none;
+  }
   flex: 1;
   width: 100%;
-  padding: 16px;
+  padding-left: 15px;
   overflow: hidden;
   h2 {
     font-size: 16px;
@@ -24,13 +42,12 @@ export const StyledTimeline = styled.div`
     overflow: hidden;
     padding: 16px;
     div {
-      
       width: calc(100vw - 16px * 4);
       display: grid;
       grid-gap: 16px;
-      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       grid-auto-flow: column;
-      grid-auto-columns: minmax(200px,1fr);
+      grid-auto-columns: minmax(200px, 1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
       a {
