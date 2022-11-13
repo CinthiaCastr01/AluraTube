@@ -3,10 +3,37 @@ import config from "../config.json";
 import styled from "styled-components";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import { createClient } from "@supabase/supabase-js";
+import { videoService } from "../src/services/videoService";
 
+const PROJECT_URL = "https://taodejcylfdlsgnphgid.supabase.co";
+const PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRhb2RlamN5bGZkbHNnbnBoZ2lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgyODk4OTIsImV4cCI6MTk4Mzg2NTg5Mn0.VCryNE2jt1XoYOVO-5C9nVDXSCq9Wjitk5R1R2tw-3k";
+const supabase = createClient(PROJECT_URL, PUBLIC_KEY);
 
 function HomePage() {
+    const service = videoService();
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+    // const playlists = {
+    //     "jogos": [],
+    // };
+    const [playlists, setPlaylists] = React.useState({});
+
+    React.useEffect(() => {
+    service
+    .getAllVideos()
+    .then((dados) => {
+ //       console.log(dados.data);
+        const novasPlaylists = {...playlists};
+        dados.data.forEach((video) => {
+            if(!novasPlaylists[video.playlist]) {
+            novasPlaylists[video.playlist] = [];
+            }
+        })
+        setPlaylists(novasPlaylists);
+    });
+}, [])
+
+//console.log("Playlists pronto", playlists);
 
     return (
         <>
